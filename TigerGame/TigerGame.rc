@@ -1,0 +1,325 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\TigerGame.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TigerGame.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TIGERGAME_DIALOG DIALOGEX 0, 0, 323, 199
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TigerGame"
+            VALUE "FileDescription", "老虎加速器"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TigerGame.exe"
+            VALUE "OriginalFilename", "TigerGame.exe"
+            VALUE "ProductName", "TigerGame"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_BT_CLOSE            PNG                     "res\\Main\\BT_CLOSE.png"
+
+IDB_BT_MIN              PNG                     "res\\Main\\BT_MIN.png"
+
+IDB_BT_MENU             PNG                     "res\\Main\\BT_MENU.png"
+
+IDB_BT_PRE              PNG                     "res\\Main\\BT_PRE.png"
+
+IDB_BT_PLAY             PNG                     "res\\Main\\BT_PLAY.png"
+
+IDB_BT_PAUSE            PNG                     "res\\Main\\BT_PAUSE.png"
+
+IDB_BT_NEXT             PNG                     "res\\Main\\BT_NEXT.png"
+
+IDB_BT_VOLUME           PNG                     "res\\Main\\BT_VOLUME.png"
+
+IDB_BT_MUTE_VOLUME      PNG                     "res\\Main\\BT_MUTE_VOLUME.png"
+
+IDB_BT_LIST_CIRCLE      PNG                     "res\\Main\\BT_LIST_CIRCLE.png"
+
+IDB_BT_RAND_CIRCLE      PNG                     "res\\Main\\BT_RAND_CIRCLE.png"
+
+IDB_BT_QUEUE_CIRCLE     PNG                     "res\\Main\\BT_QUEUE_CIRCLE.png"
+
+IDB_BT_SINGLE_CIRCLE    PNG                     "res\\Main\\BT_SINGLE_CIRCLE.png"
+
+IDB_BT_MORE             PNG                     "res\\Main\\BT_MORE.png"
+
+IDB_BT_LIST             PNG                     "res\\Main\\BT_LIST.png"
+
+IDB_PIC_ALBUM           PNG                     "res\\Main\\PIC_ALBUM.png"
+
+IDB_SLIDEW_VOLUME       PNG                     "res\\Main\\SLIDEW_VOLUME.png"
+
+IDB_BT_MODIFY_VOLUME    PNG                     "res\\Main\\BT_MODIFY_VOLUME.png"
+
+IDB_WINDOWS_BACK        PNG                     "res\\Main\\WindowsBack.png"
+
+IDB_PNG_SCROLL_DOWN     PNG                     "res\\List\\BT_SCROLL_DOWN.png"
+
+IDB_PNG_SCROLL_UP       PNG                     "res\\List\\BT_SCROLL_UP.png"
+
+IDB_PNG_SCROLL_V        PNG                     "res\\List\\SCROLL_V.png"
+
+IDB_PNG_IA_PLAYING      PNG                     "res\\List\\IA_PLAYING.png"
+
+IDB_SKIN_BKG            PNG                     "res\\Skin\\SkinBkg.png"
+
+IDB_BT_SKIN_CUSTOMIZE   PNG                     "res\\Skin\\BT_SKIN_CUSTOMIZE.png"
+
+IDB_BT_SKIN_COLOR       PNG                     "res\\Skin\\BT_SKIN_COLOR.png"
+
+IDB_BT_SKIN_IMAGE       PNG                     "res\\Skin\\BT_SKIN_IMAGE.png"
+
+IDB_SKIN_PUSHED_BKG     PNG                     "res\\Skin\\SkinPushedBkg.png"
+
+IDB_MENUEX_BACK         PNG                     "res\\Menu\\MENUEX_BACK.png"
+
+IDB_MENU_BBS            PNG                     "res\\Menu\\MENU_BBS.png"
+
+IDB_MENU_UPDATE         PNG                     "res\\Menu\\MENU_UPDATE.png"
+
+IDB_SKIN_PIC_SMALL_0    PNG                     "res\\Skin\\SKIN_PIC_SMALL_0.png"
+
+IDB_SKIN_PIC_SMALL_1    PNG                     "res\\Skin\\SKIN_PIC_SMALL_1.png"
+
+IDB_SKIN_PIC_SMALL_2    PNG                     "res\\Skin\\SKIN_PIC_SMALL_2.png"
+
+IDB_SKIN_PIC_SMALL_3    PNG                     "res\\Skin\\SKIN_PIC_SMALL_3.png"
+
+IDB_SKIN_PIC_SMALL_4    PNG                     "res\\Skin\\SKIN_PIC_SMALL_4.png"
+
+IDB_SKIN_PIC_SMALL_5    PNG                     "res\\Skin\\SKIN_PIC_SMALL_5.png"
+
+IDB_SKIN_PIC_SMALL_6    PNG                     "res\\Skin\\SKIN_PIC_SMALL_6.png"
+
+IDB_SKIN_PIC_SMALL_7    PNG                     "res\\Skin\\SKIN_PIC_SMALL_7.png"
+
+IDB_SKIN_PIC_SMALL_8    PNG                     "res\\Skin\\SKIN_PIC_SMALL_8.png"
+
+IDB_SKIN_PIC_0          PNG                     "res\\Skin\\SKIN_PIC_0.png"
+
+IDB_SKIN_PIC_1          PNG                     "res\\Skin\\SKIN_PIC_1.png"
+
+IDB_PNG_LOGO            PNG                     "res\\Main\\LOGO.png"
+
+IDB_BT_SKIN             PNG                     "res\\Skin\\BT_SKIN.png"
+
+IDB_BT_START            PNG                     "res\\Main\\BT_START.png"
+
+IDB_BT_LINE             PNG                     "res\\Main\\BT_LINE.png"
+
+IDB_BT_SETTING          PNG                     "res\\Main\\BT_SETTING.png"
+
+IDB_BT_SELECT_GAME      PNG                     "res\\Main\\BT_SELECT_GAME.png"
+
+IDB_GAME_PUBG           PNG                     "res\\Main\\GAME_PUBG.png"
+
+IDB_DLGCHILD_BKG        PNG                     "res\\Main\\DlgChildBkg.png"
+
+IDB_PNG_EDIT            PNG                     "res\\Login\\EDIT.png"
+
+IDB_PNG_CHECK_BOX       PNG                     "res\\Main\\CHECK_BOX.png"
+
+IDB_PNG_LONG_CHECK_BOX  PNG                     "res\\Main\\LOGIN_CHECK_BOX.png"
+
+IDB_PNG_BT_LOGIN        PNG                     "res\\Login\\BT_LOGIN.png"
+
+IDB_BT_DROP_DOWN        PNG                     "res\\Login\\BT_DROP_DOWN.png"
+
+IDB_BT_KEY_BOARD        PNG                     "res\\Login\\BT_KEY_BOARD.png"
+
+IDB_PNG_AREA_0          PNG                     "res\\Server\\BT_AREA_0.png"
+
+IDB_PNG_AREA_1          PNG                     "res\\Server\\BT_AREA_1.png"
+
+IDB_PNG_AREA_2          PNG                     "res\\Server\\BT_AREA_2.png"
+
+IDB_PNG_AREA_3          PNG                     "res\\Server\\BT_AREA_3.png"
+
+IDB_TAB_SEPERATOR       PNG                     "res\\Server\\Tab_seperator.png"
+
+IDB_GAME_PUBG_AS        PNG                     "res\\Game\\GAME_PUBG_AS.png"
+
+IDB_PNG_SERVER_HEADER   PNG                     "res\\Server\\PIC_SERVER_HEADER.png"
+
+IDB_PNG_BT_RES          PNG                     "res\\Server\\BT_RES.png"
+
+IDB_LISTGRID_TITLE_BG   PNG                     "res\\List\\LISTGRID_TITLE_BG.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+IDB_SKIN_PIC_0          JPG                     "res\\Skin\\SKIN_PIC_0.jpg"
+
+IDB_SKIN_PIC_1          JPG                     "res\\Skin\\SKIN_PIC_1.jpg"
+
+IDB_SKIN_PIC_2          JPG                     "res\\Skin\\SKIN_PIC_2.jpg"
+
+IDB_SKIN_PIC_3          JPG                     "res\\Skin\\SKIN_PIC_3.jpg"
+
+IDB_SKIN_PIC_4          JPG                     "res\\Skin\\SKIN_PIC_4.jpg"
+
+IDB_SKIN_PIC_5          JPG                     "res\\Skin\\SKIN_PIC_5.jpg"
+
+IDB_SKIN_PIC_6          JPG                     "res\\Skin\\SKIN_PIC_6.jpg"
+
+IDB_SKIN_PIC_7          JPG                     "res\\Skin\\SKIN_PIC_7.jpg"
+
+IDB_SKIN_PIC_8          JPG                     "res\\Skin\\SKIN_PIC_8.jpg"
+
+IDB_PIC_ABOUT           JPG                     "res\\Main\\PIC_ABOUT.jpg"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_TIGERGAME_DIALOG, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\TigerGame.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

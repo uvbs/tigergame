@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{8bed8ba2-3c8d-45c9-aa4a-04bdf215bfa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Dialog">
+      <UniqueIdentifier>{5dc94a1c-5432-423a-8c68-40a397bcd93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Base">
+      <UniqueIdentifier>{01cffd62-ba90-4e67-aef7-0da40adfc10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Button">
+      <UniqueIdentifier>{f013dd0d-0f1c-4b7e-bada-6be18a2ebd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Other">
+      <UniqueIdentifier>{24edf4e2-a454-45e3-8a1a-86934bb5e9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Text">
+      <UniqueIdentifier>{aa015e83-d866-44c6-9693-3b523d521f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\List">
+      <UniqueIdentifier>{fb8ac17c-0916-418e-ba05-82f80969e5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Timer">
+      <UniqueIdentifier>{1e7d5fbb-1db9-4423-aae7-7041d1025810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Picture">
+      <UniqueIdentifier>{d0d51263-fcd3-4c5d-bcb6-cf40dde516b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Tab">
+      <UniqueIdentifier>{f8c71ddb-70f7-4d95-bc1c-a2029bd281fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Progress">
+      <UniqueIdentifier>{02a70cd8-67e7-4e33-b97d-fe86f9756b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Menu">
+      <UniqueIdentifier>{dbb6ff7b-81d9-492d-a55b-1fb295f7c45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\Edit">
+      <UniqueIdentifier>{962cb930-a5bc-4c24-8beb-b45a68bc5ce9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DlgSkin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Dialog\DlgBase.cpp">
+      <Filter>ui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Dialog\DlgPopup.cpp">
+      <Filter>ui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\ControlBase.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\GlobalFunction.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\MessageInterface.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\ButtonEx.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\CheckButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\HideButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\ImageButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\LinkButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button\TextButton.cpp">
+      <Filter>ui\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Area.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Frame.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\ImageString.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Line.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Scroll.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\SelectBox.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Text\StaticText.cpp">
+      <Filter>ui\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\List\ListEx.cpp">
+      <Filter>ui\List</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Timer\Timer.cpp">
+      <Filter>ui\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Picture\Picture.cpp">
+      <Filter>ui\Picture</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Tab\Tab.cpp">
+      <Filter>ui\Tab</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Progress\Progress.cpp">
+      <Filter>ui\Progress</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu\MenuEx.cpp">
+      <Filter>ui\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Menu\MenuItem.cpp">
+      <Filter>ui\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Edit\EditEx.cpp">
+      <Filter>ui\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="TigerGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TigerGameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Base\BaseClass.cpp">
+      <Filter>ui\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\ImageAnimation.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Dialog\DlgBubble.cpp">
+      <Filter>ui\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Other\Slider.cpp">
+      <Filter>ui\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Timer\Stopwatch.cpp">
+      <Filter>ui\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgAbout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSelectGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSetting.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLogin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgSelectServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgUserInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\List\ListGrid.cpp">
+      <Filter>ui\List</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgSkin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ID.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\IceDUI.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Dialog\DlgBase.h">
+      <Filter>ui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Dialog\DlgPopup.h">
+      <Filter>ui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\ControlBase.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\GlobalFunction.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\MessageInterface.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\ButtonEx.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\CheckButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\HideButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\ImageButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\LinkButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button\TextButton.h">
+      <Filter>ui\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Area.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Frame.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\ImageString.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Line.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Scroll.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\SelectBox.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Text\StaticText.h">
+      <Filter>ui\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\List\ListEx.h">
+      <Filter>ui\List</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Timer\Timer.h">
+      <Filter>ui\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Picture\Picture.h">
+      <Filter>ui\Picture</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Tab\Tab.h">
+      <Filter>ui\Tab</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Progress\Progress.h">
+      <Filter>ui\Progress</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu\MenuEx.h">
+      <Filter>ui\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Menu\MenuItem.h">
+      <Filter>ui\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Edit\EditEx.h">
+      <Filter>ui\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="TigerGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TigerGameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Base\BaseClass.h">
+      <Filter>ui\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\ImageAnimation.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Dialog\DlgBubble.h">
+      <Filter>ui\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Other\Slider.h">
+      <Filter>ui\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Timer\Stopwatch.h">
+      <Filter>ui\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgAbout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSelectGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSetting.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLogin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgSelectServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgUserInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\List\ListGrid.h">
+      <Filter>ui\List</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TigerGame.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_CLOSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_MIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_SKIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_MENU.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_PRE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_PLAY.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_PAUSE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_NEXT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_VOLUME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_MUTE_VOLUME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_LIST_CIRCLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_RAND_CIRCLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_QUEUE_CIRCLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_SINGLE_CIRCLE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_MORE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_LIST.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\PIC_ALBUM.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\WindowsBack.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\List\BT_SCROLL_DOWN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\List\BT_SCROLL_UP.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\List\SCROLL_V.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\List\IA_PLAYING.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SkinBkg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\BT_SKIN_CUSTOMIZE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\BT_SKIN_COLOR.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\BT_SKIN_IMAGE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SkinPushedBkg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Menu\MENUEX_BACK.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Menu\MENU_BBS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Menu\MENU_UPDATE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_4.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_5.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_6.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_7.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_SMALL_8.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_0.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_4.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_5.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_6.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_7.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_8.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\SLIDEW_VOLUME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_MODIFY_VOLUME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\PIC_ABOUT.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\SKIN_PIC_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\LOGO.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\MENU_BBS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\MENU_UPDATE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Skin\BT_SKIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_START.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_LINE.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_SETTING.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\BT_SELECT_GAME.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\GAME_PUBG.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\DlgChildBkg.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Login\EDIT.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\CHECK_BOX.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main\LOGIN_CHECK_BOX.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Login\BT_LOGIN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Login\BT_DROP_DOWN.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Login\BT_KEY_BOARD.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\BT_AREA_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\BT_AREA_1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\BT_AREA_2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\BT_AREA_3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\Tab_seperator.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Game\GAME_PUBG_AS.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\PIC_SERVER_HEADER.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Server\BT_RES.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\List\LISTGRID_TITLE_BG.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TigerGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TigerGame.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
